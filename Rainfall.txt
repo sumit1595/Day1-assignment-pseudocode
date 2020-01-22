@@ -1,0 +1,20 @@
+Start
+
+Prompt user to enter Roof_Breadth
+Prmpt user to select Dimention as [option] Inches, Feet
+	If Roof_Breadth is Not Null and Dimention selected as Feet
+		Calculate Roof_Breadth_Dimention = Roof_Breadth * 12
+
+Prompt user to enter Roof_Width
+Prmpt user to select Dimention as [option] Inches, Feet
+	If Roof_Width Not Null and Dimention selected as Feet
+		Calculate Roof_Width_Dimention = Roof_Width * 12
+
+Get Rainfall/Prompt user to enter Rainfall
+
+	If Rainfall Not Null
+		Calculate Cubic_Inches_Water = Roof_Breadth_Dimention * Roof_Width_Dimention * Rainfall
+		Calculate Total_Gallons = Cubic_Inches_Water/231
+Display Total_Gallons
+
+End

@@ -1,0 +1,36 @@
+
+Start
+
+Prompt user to input score for exam 1
+	Get score for exam 1 and assign as Score_1
+Prompt user to input score for exam 2
+	Get score for exam 2 and assign as Score_2
+Prompt user to input score for exam 3 
+Get score for exam 3 and assign as Score_3
+Prompt user to input score for exam 4
+	Get score for exam 4 and assign as Score_4
+Prompt user to input score for exam 5
+	Get score for exam 5 and assign as Score_5
+Prompt user to input score for exam 6
+	Get score for exam 6 and assign as Score_6
+Prompt user to input score for exam 7
+	Get score for exam 7 and assign as Score_7
+Prompt user to input score for exam 8
+	Get score for exam 8 and assign as Score_8
+Prompt user to input score for exam 9
+	Get score for exam 9 and assign as Score_9
+Prompt user to input score for exam 10
+	Get score for exam 10 and assign as Score_10
+
+Prompt user to click "Submit Scores" button
+
+If any score is null (no data for either score 1 through 10)
+	Display error "Enter score for all exams"
+Else 
+Calculate Total_Score =  (Score_1 + Score_2 + ..+ Score_10) //Sum of all the 10 scores 
+	Display Total_Score
+Calculate Average score = Total score/1o //Divide Total Score (sum of all scores) by 10 (number of exams)  [
+	Display Average_Score
+
+End
+
